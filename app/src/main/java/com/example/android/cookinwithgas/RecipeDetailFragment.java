@@ -304,8 +304,8 @@ public class RecipeDetailFragment extends Fragment {
 
         @Override
         public void onBindViewHolder(final ViewHolder holder, int position) {
-            holder.mStepTitleView.setText(mSteps.get(position).stepTitle);
-            holder.mStepDescriptionView.setText(mSteps.get(position).stepDescription);
+            //holder.mStepTitleView.setText(mSteps.get(position).stepTitle);
+            //holder.mStepDescriptionView.setText(mSteps.get(position).stepDescription);
 
             holder.itemView.setTag(mSteps.get(position));
             holder.itemView.setOnClickListener(mOnClickListener);
